@@ -1,0 +1,235 @@
+*{
+			box-sizing:border-box;
+			font-family:'Roboto slab',serif;
+
+			
+}
+body
+{
+				background-color:#f2f1f1;
+
+}
+
+
+.cname{
+	
+			background-color:#FDECAA;
+			height:220px;
+			font-size:60px;
+			text-align:center;
+			padding-top:75px;
+			font-weight:bold;
+			color:#D17614;
+}
+
+.menu{
+			background-color:#D17614;
+			height:50px;
+			margin-top:5px;
+			text-align:center;
+			padding-top:15px;
+
+}
+
+.menu a{
+			text-decoration:none;
+			color:#FDECAA;
+			font-size:20px;
+			font-weight:bold;
+			display:block;
+	
+}
+
+.cur span{
+	cursor:pointer;
+}
+
+
+.banner{
+	 margin-top:8px;
+}
+
+.section{
+	background-color:#D17614;
+	height:50px;
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+	padding-left:10px;
+	color:#FDECAA;
+	line-height: 50PX;
+	/* margin:4px; */
+	
+}
+
+
+
+.menu_item{
+	/* border-style:solid; */
+	margin-top:8px;
+	height:380px;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	color:#D17614;
+	background-color:#FDECAA;
+	
+	box-shadow:0px 0px 5px 1px #BEBDBB;
+	 transition-property:transform; 
+	transition-duration:5s;
+	transition:0.2s ease;
+}
+
+.menu_item img:hover{
+  transform: scale(1.04);
+}
+
+button{
+	border:0px;
+	background-color:#D17614;
+	color:#FDECAA;
+	font-size:20px;
+	cursor:pointer;
+	transition:0.2s all;
+	border-radius:4px;
+}
+
+.menu_item button:hover{
+	transform:scale(1.08);
+	
+}
+
+.weekend {
+	margin-top: 10PX;
+	height:50px;
+	background-color:#D17614;
+	color:#FDECAA;
+	font-size:20px;
+	font-weight:bold;
+	padding-left:10px;
+	line-height:50px;
+	/* display:block; */
+}
+
+.footer{
+	background-color:#FDECAA;
+	/* height:50px; */
+	/* height:50px; */
+	font-size:15px;
+	font-weight:bold;
+	color:#D17614;
+	text-align:center;
+	margin-top:5px; 
+	/* display:block; */
+}
+
+.footer img:hover{
+	
+	cursor:pointer;
+	
+}
+
+.contact{
+	
+	background-color:#FDECAA;
+	color:#D17614;
+	font-weight:bold;
+	font-size:16px;
+	text-align:justify;
+}
+
+
+
+
+.contact a{
+		text-decoration:none;
+
+}
+
+
+
+.contact button:hover{
+	transform:scale(1.08);
+	
+}
+
+.blink span{
+	/* color:#FDECAA; */
+	color:yellow;
+	animation:blink 1s linear infinite;
+}
+
+@keyframes blink{
+	0%{opacity:0;}
+	50%{opacity:.5;}
+    100%{opacity:1;}
+}
+
+.about{
+	
+	text-align:justify;
+	background-color:#FDECAA;
+	color:#D17614;
+	margin-top:5px;
+	font-size:20px;
+}
+
+.see_more{
+	text-align: center;
+	margin-top:5px;
+	/* background-color:#FDECAA; */
+}
+
+.team{
+	margin-top: 10px;
+	height:50px;
+	background-color:#D17614;
+	color:#FDECAA;
+	font-size:20px;
+	font-weight:bold;
+	padding-left:10px;
+	line-height:50px;
+	text-align:center;
+	margin-top:5px;
+}
+
+.menu_team{
+	margin-top:8px;
+	
+	box-shadow:0px 0px 5px 1px #BEBDBB;
+	 transition-property:transform; 
+	transition-duration:5s;
+	transition:0.2s ease;
+	
+}
+
+.menu_team img hover{
+		transform:scale(1.08);
+
+}
+
+.footer img{
+	 position:relative; 
+	left:390px;
+	bottom:6px;
+	
+}
+
+.iframe1{
+	margin-top: 5px;
+}
+
+.order{
+	margin-top:8px;
+	height:380px;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	color:#D17614;
+	background-color:#FDECAA;
+	
+	box-shadow:0px 0px 8px 1px #BEBDBB;
+	line-height:20px;
+	
+}
+
